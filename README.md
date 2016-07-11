@@ -70,3 +70,9 @@ Enjoy!
 [11]: https://symfony.com/doc/2.7/cookbook/logging/monolog.html
 [12]: https://symfony.com/doc/2.7/cookbook/assetic/asset_management.html
 [13]: https://symfony.com/doc/2.7/bundles/SensioGeneratorBundle/index.html
+
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/lew13010/Symfony.git
+git push -u origin master
