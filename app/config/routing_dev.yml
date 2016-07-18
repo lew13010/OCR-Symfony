@@ -16,3 +16,12 @@ _errors:
 
 _main:
     resource: routing.yml
+
+oc_platform_translation:
+    path: /{_locale}/translation/{name}
+    defaults:
+        _controller: "OCPlatformBundle:Advert:translation"
+
+coresphere_console:
+    resource: .
+    type: extra
